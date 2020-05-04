@@ -1,0 +1,187 @@
+body{
+    font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+.header{
+    background-image: url(background.png);
+    background-size: cover;
+}
+
+.header-wrapper{
+    width: 1170px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    margin:0 auto;
+    text-align: center;
+    color: white;
+    opacity:0.8;
+}
+
+.sinki{
+    background-color: #239b76;
+    margin-top: 30px;
+}
+
+.facebook{
+    background-color: #3b5998;
+}
+
+.twitter{
+    background-color: #55acee;
+    margin-left: 10px;
+}
+
+.btn{
+    padding:8px 24px;
+    display: inline-block;
+}
+
+.fa{
+    margin-right: 9px;
+}
+
+.header-wrapper h1{
+    margin:0px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 45px;
+    opacity: 0.7;
+}
+
+.or{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.header-text{
+    margin:0px;
+    opacity: 0.7;
+}
+
+header{
+    position: fixed;
+    top:0px;
+    height: 65px;
+    background-color: rgba(34, 49, 52, 0.9);
+    width: 100%;
+    z-index: 10;
+}
+
+.header-all{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.header-left img{
+    padding: 20px 0px;
+    width: 124px;
+    float: left;
+}
+
+.header-right a{
+    background-color: rgba(255, 255, 255, 0.3);
+    color:white;
+    padding: 20px 25px;
+    float:right;
+}
+
+.main-wrapper{
+    background-color: #f7f7f7;
+    height: 580px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.container-logo h2{
+    font-weight: normal;
+    color: #5f5d60;
+    padding-top: 80px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.matome{
+    position: relative;
+}
+
+.matome p{
+    position: absolute;
+    top:90px;
+    width:100%;
+    color: white;
+}
+
+.lesson-text{
+    width: 80%;
+    font-size: 13px;
+    display: inline-block;
+    color: #b3aeb5;
+    margin-top: 15px;
+}
+
+.container{
+    text-align: center;
+}
+
+.lesson{
+    float: left;
+    width: 25%;
+}
+
+.main-bottom{
+    width:1170px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.main-bottom h2{
+    padding-top: 80px;
+    color: #5f5d60;
+    margin: 0px;
+}
+
+.main-bottom h3{
+    color: #5f5d60;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-bottom a{
+    background-color: #5dca88;
+    opacity: 0.8;
+    padding: 15px 40px;
+    color: white;
+    box-shadow: 0px 7px #1a7940;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.footer-all{
+    width:1170px;
+    margin: 0 auto;
+    text-align: left;
+    border-top: solid 1px #eee;
+}
+
+.footer-all img{
+    width: 124px;
+    padding-top: 30px;
+}
+
+.footer-all p{
+    color:#b3aeb5;
+    font-size: 12px;
+    margin: 0px;
+}
